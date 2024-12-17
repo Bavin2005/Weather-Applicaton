@@ -1,0 +1,62 @@
+html,
+body {
+  font-size: 62.5%;
+  margin: 0%;
+  padding: 0%;
+  border: 0%;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#container {
+  width: 50rem;
+  border: 1px;
+  border-radius: 10px;
+  height: 40rem;
+}
+
+#form {
+  position: relative;
+  top: 3rem;
+  left: 14rem;
+  font-size: large;
+}
+
+#lat {
+  background-color: gainsboro;
+  margin-bottom: 20px;
+  height: 30px;
+  width: 20rem;
+  border: none;
+  border-radius: 3px;
+  outline: none;
+}
+
+#long {
+  background-color: gainsboro;
+  height: 30px;
+  width: 20rem;
+  border: none;
+  border-radius: 3px;
+  outline: none;
+}
+
+#btn {
+  margin-top: 30px;
+  width: 20rem;
+  height: 30px;
+  background-color: skyblue;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#region,
+#humidity,
+#speed,
+#temp {
+  font-size: larger;
+}
